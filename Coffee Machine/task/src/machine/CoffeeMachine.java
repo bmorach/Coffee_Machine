@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class CoffeeMachine {
     int water; int milk; int coffee; int disposableCups; int money; boolean mainMenu; Scanner userInput;
-    //  int water = 400; int milk = 540; int coffee = 120; int disposableCups = 9; int money = 550;
 
     public CoffeeMachine(int water, int milk, int coffee, int disposableCups, int money, Scanner userInput) {
         this.water = water;
